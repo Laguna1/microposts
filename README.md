@@ -1,1 +1,1 @@
-# micropost
+# microposts
