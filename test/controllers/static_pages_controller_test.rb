@@ -10,19 +10,19 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should get help' do
-    get '/static_pages/help'
+    get '/help'
     assert_response :success
     assert_select 'title', 'Help | Microposts'
   end
 
   test 'should get about' do
-    get '/static_pages/about'
+    get '/about'
     assert_response :success
     assert_select 'title', 'About | Microposts'
   end
 
   test 'should get contact' do
-    get '/static_pages/contact'
+    get '/contact'
     assert_response :success
     assert_select 'title', 'Contact | Microposts'
   end
