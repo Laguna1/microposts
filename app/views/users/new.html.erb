@@ -1,6 +1,7 @@
-<% provide(:title, "Add User") %>
+<% provide(:title, 'Sign up') %>
+<p id="notice"><%= notice %></p>
 <h1>New User</h1>
 
-<%= render 'form', user: @user %>
+    <%= render 'form', user: @user %>
 
 <%= link_to 'Back', users_path %>
